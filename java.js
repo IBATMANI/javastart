@@ -1,5 +1,5 @@
 
-document.body.innerHTML = "Some new HTML content";
+document.body.innerHTML = "Jupiter er blå";
 
 
 
