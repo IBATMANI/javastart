@@ -1,3 +1,6 @@
-<script>
+
 document.body.innerHTML = "Some new HTML content";
-</script>
+
+
+
+document.body.style.backgroundColor = "yellow";
