@@ -35,15 +35,15 @@ document.getElementById("b").innerHTML = "Safi";
 document.getElementById('a').style.fontSize = '100px';
 document.getElementById('b').style.fontSize = '100px';
 
-// variabler, x, y og z har fået en værdi
+// variabler, a, b, c og d har fået en værdi
 var a = "Abasin";
 var b = "Safi";
 var d = " "
 var c = a + d + b;
 
-// Text til z og z-vaerdien bliver visses selv
+// Text til c og c-vaerdien bliver visses selv
 document.getElementById("c").innerHTML = "Fulde navn: " + c;
 
-// Textstoerrelse til z
+// Textstoerrelse til c
 document.getElementById('c').style.fontSize = '100px';
 document.getElementById('c').style.color = 'pink';
