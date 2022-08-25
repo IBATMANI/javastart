@@ -1,5 +1,5 @@
-alert("Månen er grøn")
-alert("Mars er hvid")
+//alert("Månen er grøn")
+//alert("Mars er hvid")
 
 // background farve skifter
 document.body.style.backgroundColor = "yellow";
@@ -47,3 +47,12 @@ document.getElementById("c").innerHTML = "Fulde navn: " + c;
 // Textstoerrelse til c
 document.getElementById('c').style.fontSize = '100px';
 document.getElementById('c').style.color = 'pink';
+
+
+const rum = ["Venus", "Uranus", "Pluto"];
+document.getElementById("rum").innerHTML = cars;
+document.getElementById('rum').style.fontSize = '100px';
+document.getElementById('rum').style.color = 'blue';
+
+
+
