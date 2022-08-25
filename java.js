@@ -54,16 +54,15 @@ document.getElementById("rum").innerHTML = rum;
 document.getElementById('rum').style.fontSize = '100px';
 document.getElementById('rum').style.color = 'blue';
 
-var stor = 
 
-const tal = ["1", "2", "3", "4"];
+const tal = [1, 2, 3, 4];
 document.getElementById("tal").innerHTML = tal;
 document.getElementById('tal').style.fontSize = '100px';
 document.getElementById('tal').style.color = 'blue';
 
-var stor = 3;
+var stor = 2;
 
-if (tal [0]< 1) {
+if (tal > 1) {
     stor = "STOR";
   } else {
     stor = "LILLE";
