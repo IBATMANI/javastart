@@ -67,12 +67,12 @@ document.getElementById('tal').style.color = 'blue';
 
 function myFunction(x, y) {
     if (y === undefined) {
-      y = 100;
+      y = 250;
     }  
     return x * y;
   }
 
-document.getElementById("percent").innerHTML = "Moms af 100Kr er  " + myFunction(0.25) + "Kr. ";
+document.getElementById("percent").innerHTML = "Moms af 250Kr er  " + myFunction(0.25) + "Kr. ";
 document.getElementById('percent').style.fontSize = '100px';
 document.getElementById('percent').style.color = 'red';
 
