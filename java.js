@@ -50,7 +50,7 @@ document.getElementById('c').style.color = 'pink';
 
 
 const rum = ["Venus", "Uranus", "Pluto"];
-document.getElementById("rum").innerHTML = cars;
+document.getElementById("rum").innerHTML = rum;
 document.getElementById('rum').style.fontSize = '100px';
 document.getElementById('rum').style.color = 'blue';
 
