@@ -54,18 +54,31 @@ document.getElementById("rum").innerHTML = rum;
 document.getElementById('rum').style.fontSize = '100px';
 document.getElementById('rum').style.color = 'blue';
 
+var text = "";
+for (var i = 0; i < rum.length; i++) {
+  text += rum[i] + "<br>";
+}
+
 
 const tal = [1, 2, 3, 4];
 document.getElementById("tal").innerHTML = tal;
 document.getElementById('tal').style.fontSize = '100px';
 document.getElementById('tal').style.color = 'blue';
 
-var stor = 2;
-
-if (tal > 1) {
-    stor = "STOR";
-  } else {
-    stor = "LILLE";
+function myFunction(x, y) {
+    if (y === undefined) {
+      y = 100;
+    }  
+    return x * y;
   }
 
+document.getElementById("percent").innerHTML = "Moms af 100Kr er  " + myFunction(0.25) + "Kr. ";
+document.getElementById('percent').style.fontSize = '100px';
+document.getElementById('percent').style.color = 'red';
+
+function per(numA, numB) {
+    return (numA / numB) * 100;
+  }
+
+console.log(per(30, 75));
 
