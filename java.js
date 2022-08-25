@@ -49,10 +49,24 @@ document.getElementById('c').style.fontSize = '100px';
 document.getElementById('c').style.color = 'pink';
 
 
-const rum = ["Venus", "Uranus", "Pluto"];
+const rum = ["Sol", "Venus", "Uranus", "Pluto"];
 document.getElementById("rum").innerHTML = rum;
 document.getElementById('rum').style.fontSize = '100px';
 document.getElementById('rum').style.color = 'blue';
 
+var stor = 
+
+const tal = ["1", "2", "3", "4"];
+document.getElementById("tal").innerHTML = tal;
+document.getElementById('tal').style.fontSize = '100px';
+document.getElementById('tal').style.color = 'blue';
+
+var stor = 3;
+
+if (tal [0]< 1) {
+    stor = "STOR";
+  } else {
+    stor = "LILLE";
+  }
 
 
